@@ -25,8 +25,9 @@ import java.util.logging.Logger;
 public class ReadBuffer {
 	/**
 	 * Maximum buffer size which is supported by this implementation.
+	 PHILW - increased the read buffer size by a factor of 10 as not rendering GB properly otherwise.
 	 */
-	static final int MAXIMUM_BUFFER_SIZE = 2500000;
+	static final int MAXIMUM_BUFFER_SIZE = 25000000;
 	private static final String CHARSET_UTF8 = "UTF-8";
 	private static final Logger LOGGER = Logger.getLogger(ReadBuffer.class.getName());
 

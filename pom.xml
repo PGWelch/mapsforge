@@ -27,11 +27,11 @@
 	<modules>
 		<module>mapsforge-core</module>
 		<module>mapsforge-map</module>
-		<module>mapsforge-map-android</module>
+		<!--module>mapsforge-map-android</module-->
 		<module>mapsforge-map-awt</module>
 		<module>mapsforge-map-reader</module>
 		<module>mapsforge-map-writer</module>
-		<module>Applications/Android/Samples</module>
+		<!--module>Applications/Android/Samples</module-->
 		<module>SwingMapViewer</module>		
 	</modules>
 
